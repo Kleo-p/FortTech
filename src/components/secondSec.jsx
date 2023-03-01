@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react";
 
 export default function SecSection() {
+  const [email, setEmail] = useState();
   return (
     <div className="allSubSec">
       <div className="subSec">
@@ -16,6 +18,7 @@ export default function SecSection() {
             className="inp"
             type="text"
             name="search"
+            // value={email}
             placeholder="Enter your email here"
           />
           <button className="searchBut">Subscribe</button>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Nav from "./Nav";
+// import Nav from "./Nav";
 import Search from "./search";
 import coverDb from "./coverDb";
 
@@ -25,7 +25,7 @@ export default function One() {
     <div className="first" style={{ backgroundImage: `url(${covers[c]})` }}>
       <div className="firstd">
         <div className="firsts">
-          <Nav />
+          {/* <Nav /> */}
           <Search />
         </div>
       </div>
